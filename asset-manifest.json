@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/elections2022/static/css/main.68656b6d.css",
+    "main.js": "/elections2022/static/js/main.ed20f660.js",
+    "static/js/787.5721220d.chunk.js": "/elections2022/static/js/787.5721220d.chunk.js",
+    "index.html": "/elections2022/index.html",
+    "main.68656b6d.css.map": "/elections2022/static/css/main.68656b6d.css.map",
+    "main.ed20f660.js.map": "/elections2022/static/js/main.ed20f660.js.map",
+    "787.5721220d.chunk.js.map": "/elections2022/static/js/787.5721220d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68656b6d.css",
+    "static/js/main.ed20f660.js"
+  ]
+}
