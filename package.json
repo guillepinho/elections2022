@@ -21,7 +21,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +45,6 @@
   },
   "devDependencies": {
     "eslint-config-trybe-backend": "^2.1.0",
-    "eslint-config-trybe-frontend": "^1.3.1",
-    "gh-pages": "^4.0.0"
+    "eslint-config-trybe-frontend": "^1.3.1"
   }
 }
