@@ -22,7 +22,10 @@ function Body() {
   const fetchData = async () => {
     const URL = 'https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json';
 
+    console.log('eu');
+
     const data = await fetch(URL);
+    console.log(data);
     const request = await data.json();
     const { cand } = request;
 
@@ -65,6 +68,7 @@ function Body() {
 
   return (
     <div className="politics">
+      <button type="button" onClick={ () => setTimer(!timer) }>Atualizar</button>
       <PoliticCard
         name="Bolsonaro"
         data={ bolsonaro }

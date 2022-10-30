@@ -49,7 +49,10 @@ function Data({ info, time }) {
               <PersonAddAlt1Outlined />
             </ListItemIcon>
             <ListItemText secondary="Total de Votos Apurados:" />
-            <ListItemText secondary={ `${votos}%` } className="last-txt" />
+            <ListItemText
+              secondary={ `${votos.toLocaleString('pt-br')}` }
+              className="last-txt"
+            />
           </ListItemButton>
         </ListItem>
 
